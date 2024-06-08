@@ -17,8 +17,11 @@ const DoughNutChart = ({ accounts }: DoughnutChartProps) => {
   };
 
   return (
-    <div>
-      <Doughnut data={data} />
+    <div className="">
+      <Doughnut data={data} 
+      options={{
+        cutout:"60%",
+      }}/>
     </div>
   );
 };

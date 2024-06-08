@@ -11,7 +11,7 @@ const TotalBalanceBox = ({
 }: TotalBalanceBoxProps) => {
   return (
     <section className="w-full flex border border-gray-200 rounded p-4 shadow-chart sm:gap-6 sm:p-6">
-      <div className="max-  w-[120]">
+      <div className="w-full max-w-32">
         <DoughNutChart accounts={accounts} />
       </div>
       <div className="flex flex-col gap-6">
