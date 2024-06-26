@@ -23,7 +23,7 @@ const Home = () => {
         </header>
         Recent Transition
       </div>
-      <RightSideBar User={loginIn} transactions={[]} banks={[]} />
+      <RightSideBar user={loginIn} transactions={[]} banks={[]} />
     </section>
   );
 };
